@@ -32,6 +32,7 @@ class Aluno(Resource):
         cpf = str(cpf).split('=')[1].replace("'", "")
         return jsonify({'cpf': cpf})
 
+
 api.add_resource(Aluno, '/api')
 
 
