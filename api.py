@@ -4,6 +4,7 @@ from flask_restful import Api, Resource
 app = Flask(__name__)
 api = Api(app)
 
+
 class Aluno(Resource):
     def post(self):
         aluno = request.form.get('aluno')

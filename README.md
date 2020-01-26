@@ -9,7 +9,7 @@ pip3 install Flask
 pip3 install Flask-RESTful
 ```
 
-After install the Python and Flask, do you can run the api.py file and in your browser go to URL [http://localhost:5000/api](http://localhost:5000/api).
+After install the Python and Flask, do you can run the api.py file and after this, in your browser go to URL [http://localhost:5000/api](http://localhost:5000/api).
 
 # Explain the code
 
